@@ -219,7 +219,7 @@ Hasilnya seperti gambar di bawah ini:
 
 __(16)__ Ketika mengunjungi IP PROBOLINGGO akan dialihkan secara otomatis ke http://semeruyyy.pw. 
 
-Untuk mengubah IP maka kita ganti pada /etc/apache2/sites/available/default dan menggunakan command `Redirect / http://semerut09.pw` untuk mengubah ketika request masuk ke IP yang mana di-catch di sites-available default, maka akan redirect ke semerut09.pw
+Untuk mengubah IP maka kita ganti pada /etc/apache2/sites-available/default dan menggunakan command `Redirect / http://semerut09.pw` untuk mengubah ketika request masuk ke IP yang mana di-catch di sites-available default, maka akan redirect ke semerut09.pw
 
 ![redirectbaby](https://user-images.githubusercontent.com/61267430/99153024-53768600-26d8-11eb-944b-27a94562bb65.png)
 
